@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bac {
+	width: 100%;
+	height: 40px;
+	background: #ff;
+}
+
+.menu {
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.menu-left {
+	width: 1030px;
+	height: 36px;
+	float: left;
+	margin-left: 200px;
+	width: 1030px;
+}
+
+.menu-left li {
+	height: 36px;
+	line-height: 36px;
+	float: left;
+}
+
+.menu-left img {
+	width: 100px;
+	height: 30px;
+	margin-top: 3px;
+	display: block;
+}
+
+.menu-left li {
+	font-size: 12px;
+	padding: 0 8px;
+	float: left;
+	list-style: none;
+}
+
+.menu-left li:first-child {
+	padding-left: 0;
+}
+
+.menu-left li:last-child {
+	border-right: 0px solid #424242;
+}
+
+.menu-left li a {
+	color: #010101;
+}
+
+
+/* 鼠标移入效果 */
+
+.menu-left li a:hover {
+	color: #f75a7b;
+}
+
+h2 {
+	color: #1e873b;
+}
+
+
+/*banner开始*/
+
+.banner {
+	width: 1349px;
+	height: 503px;
+	position: relative;
+	margin: 0 auto;
+	background: #CD373A;
+	border-top: 2px solid #ff0036;
+	float: left;
+}
+
+.menu_box {
+	width: 200px;
+	float: left;
+	height: 36px;
+	color: #fff;
+	background-color: #FF0036;
+	position: absolute;
+	z-index: 100;
+	left: 46px;
+	top: 5px;
+	line-height: 36px;
+}
+
+.menu_box i {
+	margin-left: 14px;
+	margin-right: 10px;
+	height: 31px;
+	line-height: 31px;
+	font-size: 16px;
+}
+
+.right-box {
+	width: 1130px;
+	height: 503px;
+	/*background:blue;*/
+	position: absolute;
+	margin-left: 97px;
+}
+
+.aside {
+	width: 202px;
+	height: 503px;
+	position: absolute;
+	left: 46px;
+	margin: 0 auto;
+	background: rgba(60, 60, 60, 0.5);
+}
+
+.celam-word {
+	background-color: rgba(0, 0, 0, .55);
+	width: 200px;
+	height: 500px;
+	position: relative;
+	z-index: 11;
+}
+
+.celan-word li {
+	position: relative;
+	height: 31.2px;
+	line-height: 31.2px;
+	color: #fff;
+	font-size: 14px;
+	list-style: none;
+}
+
+.celan-word li i {
+	margin-left: 14px;
+	margin-right: 10px;
+	height: 31px;
+	line-height: 31px;
+	font-size: 16px;
+}
+
+.celan-word li:hover {
+	background: #fff;
+}
+
+.celan-left {
+	float: left;
+	height: 15px;
+	width: 160px;
+	margin-left: 10px;
+}
+
+.celan-left1:hover {
+	color: #f75a7b;
+}
+
+.celan-left2:hover {
+	color: #4689ed;
+}
+
+.celan-left3:hover {
+	color: #655ce5;
+}
+
+.celan-left4:hover {
+	color: #f75a7b;
+}
+
+.celan-left5:hover {
+	color: #4689ed;
+}
+
+.celan-left6:hover {
+	color: #655ce5;
+}
+
+.celan-left7:hover {
+	color: #f75a7b;
+}
+
+.celan-left8:hover {
+	color: #4689ed;
+}
+
+.celan-left9:hover {
+	color: #655ce5;
+}
+
+.celan-left10:hover {
+	color: #f75a7b;
+}
+
+.celan-left11:hover {
+	color: #4689ed;
+}
+
+.celan-left12:hover {
+	color: #655ce5;
+}
+
+.celan-left13:hover {
+	color: #f75a7b;
+}
+
+.celan-left14:hover {
+	color: #4689ed;
+}
+
+.celan-left15:hover {
+	color: #655ce5;
+}
+
+.celan-left16:hover {
+	color: #f75a7b;
+}
+
+.banner_box {
+	position: relative;
+}
+
+.pic {
+	display: block;
+	width: 1130px;
+	height: 503px;
+	background: blue;
+	position: absolute;
+	margin-left: 97px;
+}
+
+.right1 {
+	width: 211px;
+	height: 238px;
+	background: rgba(60, 60, 60, 0.5);
+	position: absolute;
+	top: 10px;
+	right: 41px;
+	text-align: center;
+}
+
+.right2 {
+	width: 211px;
+	height: 238px;
+	background: rgba(60, 60, 60, 0.5);
+	position: absolute;
+	bottom: 10px;
+	right: 41px;
+	text-align: center;
+}
+
+b {
+	text-align: center;
+}
+
+p {
+	font-size: 10px;
+	text-align: center;
+}
+
+.banner_dot {
+	position: absolute;
+	margin: -40px auto 0;
+	text-align: center;
+	z-index: 100;
+	bottom: 20px;
+	width: 100%;
+}
+
+.dot_item {
+	background: #000;
+	width: 25px;
+	height: 5px;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 5px;
+	cursor: pointer;
+	opacity: .3;
+}
+
+.dot_active {
+	background: #fff;
+	opacity: .6;
+}
+
+.dot_item:hover {
+	background: #fff;
+	opacity: .6;
+}
